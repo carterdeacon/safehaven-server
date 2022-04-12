@@ -5,7 +5,7 @@ app.use(cors())
 const db = require("./db")
 
 // using environment variables
-const PORT = process.env.PORT || 8000
+const port = process.env.PORT || 3001;
 const Report = require('./models/report.js');
 const { reports } = require('./models/report.js');
 
@@ -38,7 +38,7 @@ app.get('/api/reports/stats', (req, res) => {
     })
 })
 
-app.post("/api/reports", (req, res) => {
+app.post('/api/reports', (req, res) => {
   let newReport = req.body;
   console.log(newReport)
   Report.create(newReport);
@@ -47,9 +47,8 @@ app.post("/api/reports", (req, res) => {
   if (newReport.email){
     return res.json(redirect)
   }
-  
 })
 
-app.listen(PORT, () => {
-  console.log(`server listening on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`server listening on port ${port}`);
 })

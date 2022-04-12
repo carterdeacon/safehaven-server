@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c2bf691.css",
+    "main.js": "/static/js/main.8c227493.js",
+    "static/js/787.7c3e54f9.chunk.js": "/static/js/787.7c3e54f9.chunk.js",
+    "static/media/logo.png": "/static/media/logo.d124fa9e861b23f9bdcb.png",
+    "static/media/hotlinelogo.png": "/static/media/hotlinelogo.7402a96b1f54dcb59d31.png",
+    "index.html": "/index.html",
+    "main.9c2bf691.css.map": "/static/css/main.9c2bf691.css.map",
+    "main.8c227493.js.map": "/static/js/main.8c227493.js.map",
+    "787.7c3e54f9.chunk.js.map": "/static/js/787.7c3e54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c2bf691.css",
+    "static/js/main.8c227493.js"
+  ]
+}
